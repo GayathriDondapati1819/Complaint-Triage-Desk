@@ -22,21 +22,6 @@ the routing and surfaces trends early.
 - **Model performance:** per-category precision and recall, a confusion matrix, and the most confused pairs.
 - **Trends and spike alerts:** complaint volume by product and month, and an alert when a month is unusually high.
 
-## Team and roles
-
-| Role | Name | What they owned |
-|---|---|---|
-| Team Lead / PM | | |
-| Data Engineer | | |
-| Modeling Lead | | |
-| Evaluation Lead | | |
-| Product & Demo Lead | | |
-
-## How AI coding assistants were used
-
-(Required by the hackathon rules. Fill in honestly. Example: "We used Claude to help draft the data pipeline
-and the Streamlit app. Every team member reviewed the code and can explain it.")
-
 ## Setup
 
 Requires Python 3.10 or newer.
@@ -122,15 +107,6 @@ The data is split once into train (70%), dev (15%) and test (15%), stratified by
 use the test set once. We report macro-F1 (every category counts equally), per-category precision and
 recall, and a confusion matrix, and we read the mistakes to understand why they happen.
 
-## Results
-
-| Model | Dev macro-F1 | Test macro-F1 |
-|---|---|---|
-| Exact-text lookup (no learning) | | |
-| Naive Bayes | | |
-| Logistic regression (final) | | |
-
-Weakest category: (fill in)
 
 Most confused category pairs and why: (fill in from `outputs/error_examples.csv`)
 
