@@ -1,0 +1,16 @@
+{
+  "text_mode": "issue",
+  "source_file": "complaints.csv",
+  "rows": 42814,
+  "labels": [
+    "Bank account",
+    "Credit reporting",
+    "Credit/prepaid card",
+    "Debt collection",
+    "Money transfer",
+    "Mortgage",
+    "Payday/personal loan",
+    "Student loan",
+    "Vehicle loan"
+  ]
+}
